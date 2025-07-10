@@ -1,1 +1,3 @@
 # Pokemon
+
+This application will take a pokemon name as user input into a console and then make 2 calls to the PokeAPI( one to get the pokimon information which contains a url to get their damage relation types, and a second call using that url to get the damage relations). When executing the source code you will be prompted to enter a pokemon name. This input CANNOT be numeric. The pokeAPI accepts both name and id, but for simplicity and user experience the application restricts to names only. The solution contains 3 projects. The base Pokemon Project that contains the console app and should be set as your startup project, a Unit Test project for code coverage, and an Integration Test project to test external dependencies. 
